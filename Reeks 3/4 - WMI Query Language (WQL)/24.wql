@@ -1,0 +1,6 @@
+# 1
+select * from CIM_Service
+# 2
+select * from meta_class where __SUPERCLASS = "CIM_Service"
+# 3
+select * from meta_class where __SUPERCLASS is null

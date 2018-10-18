@@ -1,0 +1,3 @@
+# Win32_NTEvent -> Win32_NTEventlogFile
+
+select * from Win32_NTLogEvent where EventCode=6005 or EventCode=6006

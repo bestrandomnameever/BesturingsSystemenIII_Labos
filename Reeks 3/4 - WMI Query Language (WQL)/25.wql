@@ -1,0 +1,1 @@
+select * from meta_class where __THIS isa "CIM_Service"
